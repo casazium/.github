@@ -39,6 +39,6 @@ We're just getting started. Future Casazium tools may include:
 - 🌱 Join the waitlist (coming soon)
 
 ---
+> Casazium is independently built by [@rcasazza](https://github.com/rcasazza). We're open to community input, feedback, and collaboration.
 
-> 💡 Casazium is independently built by [@bobcasazza](https://github.com/bobcasazza). We're open to community input, feedback, and collaboration.
 # .github
