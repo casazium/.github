@@ -1,43 +1,34 @@
 # Casazium
 
-**Casazium** is an independent suite of developer tools and lightweight software products — built to help solo builders and small teams launch faster without bloat or complexity.
-
-Our mission is to make modern, privacy-conscious tools that are easy to integrate, self-host, and scale — from MVP to production.
+**Casazium** builds developer infrastructure for indie software vendors — tools that help solo builders and small teams ship and license their own software without the overhead of building that plumbing themselves.
 
 ---
 
-## 🔐 First Tool: Casazium Auth
+## 🔑 Casazium License Server
 
-Casazium Auth is a simple, self-hostable authentication service built for developers who want:
+Our first product: a license-key server for gating and managing your own commercial software.
 
-- Passwordless magic link login
-- Optional password support
-- JWT-based sessions and refresh tokens
-- Minimal setup via Docker
-- REST API for easy integration
-- Free tier built for indie developers
+- Self-hosted or hosted (SaaS) — same server, same API either way
+- License issuance, activation, revocation, and per-seat usage tracking
+- Offline verification (RSA-signed exports) for apps that can't always phone home
+- Docker-based self-hosted setup in minutes
 
-Check it out: [Casazium/auth](https://github.com/Casazium/auth)
+Learn more: [casazium.com](https://casazium.com) · Docs: [docs.casazium.com](https://docs.casazium.com)
 
 ---
 
-## 🧩 More to Come
+## 🧩 Coming Next: Casazium Auth Server
 
-We’re exploring additional developer-facing tools such as:
-
-- Metrics and monitoring dashboards
-- Session/key/token management utilities
-- Lightweight documentation or user onboarding helpers
+A self-hostable authentication service — passwordless magic-link login, JWT sessions — is in early planning as our second product. Not yet available; see the docs site for status.
 
 ---
 
-## 🙋 Contributing & Feedback
+## 🙋 Support & Feedback
 
-Casazium is independently built by [@rcasazza](https://github.com/rcasazza). We're open to community input, feedback, and collaboration.
+Casazium is built by [@rcasazza](https://github.com/rcasazza). Questions, bugs, or feedback:
 
-- 🐞 Found a bug? Open an [issue](https://github.com/Casazium/auth/issues)
-- 💬 Have a feature idea? Start a [discussion](https://github.com/Casazium/auth/discussions)
-- 🤝 Want to contribute? Check our [contributing guide](CONTRIBUTING.md)
+- ✉️ [hello@casazium.com](mailto:hello@casazium.com)
+- 📚 [docs.casazium.com](https://docs.casazium.com)
 
 ---
 
