@@ -16,7 +16,8 @@ Run it on your own infrastructure, or use the hosted service. It's the same API 
 - **Leaving is documented:** hosted accounts can export their data from Settings at any time,
   and a hosted service won't shut down without 90 days' written notice
   ([Terms](https://casazium.com/terms)). Self-hosted licensees get the same notice, plus a
-  final build with the license check and all contact with Casazium's servers removed.
+  final build with the license check and all contact with Casazium's servers removed
+  ([EULA §8](https://docs.casazium.com/docs/license-server/eula#_8-discontinuation-of-the-software)).
 
 [Documentation](https://docs.casazium.com/docs/license-server/intro) ·
 [Pricing](https://casazium.com/pricing) ·
