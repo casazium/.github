@@ -34,6 +34,9 @@ are supported, including refunds, chargebacks and subscription renewals.
   — `docker compose up`, with the admin console included and its secrets generated on first boot.
 - **In your app:** [`@casazium/license-sdk`](https://www.npmjs.com/package/@casazium/license-sdk)
   on npm, or the plain HTTP API. Worked examples in JavaScript, Python, Java and Go.
+- **A working example:** [`license-demo`](https://github.com/casazium/license-demo) — a small
+  Electron app showing how a desktop app activates, stores and re-checks a license. MIT, and
+  the one piece of Casazium you can read the source of.
 - **Guides:** [end-to-end walkthroughs](https://casazium.com/guides) — licensing a desktop app,
   issuing keys from each storefront, offline verification with public-key signatures, and
   licensing server software you ship to customers.
