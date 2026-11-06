@@ -1,9 +1,10 @@
 # Casazium
 
-**Developer infrastructure for indie software vendors — self-hosted or hosted.**
+**Licensing infrastructure for indie software vendors, and tools for the people who debug HTTP.**
 
 Casazium is a one-person studio run by Bob Casazza in Merrimack, New Hampshire. Most of the
-source is private; this page is here so you can see who's behind it and where to look.
+source is private — Wirescry's core is the exception — so this page is here to show you who's
+behind it and where to look.
 
 ## License Server
 
@@ -36,7 +37,7 @@ are supported, including refunds, chargebacks and subscription renewals.
   on npm, or the plain HTTP API. Worked examples in JavaScript, Python, Java and Go.
 - **A working example:** [`license-demo`](https://github.com/casazium/license-demo) — a small
   Electron app showing how a desktop app activates, stores and re-checks a license. MIT, and
-  the one piece of Casazium you can read the source of.
+  small enough to read in one sitting.
 - **Guides:** [end-to-end walkthroughs](https://casazium.com/guides) — licensing a desktop app,
   issuing keys from each storefront, offline verification with public-key signatures, and
   licensing server software you ship to customers.
@@ -44,6 +45,34 @@ are supported, including refunds, chargebacks and subscription renewals.
 [Documentation](https://docs.casazium.com/docs/license-server/intro) ·
 [Pricing](https://casazium.com/pricing) ·
 [Self-hosted binaries](https://github.com/casazium/license-releases/releases)
+
+## Wirescry
+
+**See and change your app's HTTP traffic.** Launch a browser or a terminal from Wirescry and
+its traffic appears — decrypted, formatted and searchable. Nothing is installed system-wide, no
+certificate is added to your machine's trust store and your system proxy settings are untouched,
+so there is nothing to undo when you close it.
+
+- **The free app is the whole tool, not a trial.** Every HTTP and HTTPS request and response,
+  filters like `status>=400` or `host=api.*`, bodies decoded from gzip, Brotli or zstd and
+  formatted rather than dumped, and one-click launching of browsers, terminals and the Docker
+  containers they start. macOS, Windows and Linux, with no time limit and no account.
+- **Open source**, AGPL-3.0: [`casazium/wirescry`](https://github.com/casazium/wirescry).
+- **No telemetry** — no analytics, no usage tracking and no crash reporting anywhere in the app.
+  HTTPS is decrypted with a certificate authority generated on your own computer the first time
+  it starts, and intercepted traffic is never sent to Casazium: it goes where it was already
+  headed, or wherever your own rules send it.
+- **Pro** adds the parts that change traffic: rules (mock, reply from a file, forward, rewrite,
+  simulate failures), breakpoints, saved requests, variables, Copy as code, and checking traffic
+  against your OpenAPI specs. **$59/year founding price until 1 May 2027, $79/year after**, three
+  computers, a 14-day free trial and 30-day refunds. Students 50% off; free for maintainers of
+  active open-source projects. If you stop paying, Pro keeps working in every version released
+  while you were subscribed, on the computers where it is activated.
+
+[Download](https://github.com/casazium/wirescry-releases/releases) ·
+[Documentation](https://docs.casazium.com/docs/wirescry/intro) ·
+[Product page](https://casazium.com/wirescry) ·
+[Source](https://github.com/casazium/wirescry)
 
 ## Also from Casazium
 
